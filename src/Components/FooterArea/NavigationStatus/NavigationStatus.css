@@ -1,0 +1,30 @@
+.NavigationStatus-Good {
+    display: flex;
+	background-color: rgb(20, 156, 20);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(28, 68, 28);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.NavigationStatus-Mid {
+    display: flex;
+	background-color: rgb(217, 228, 17);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(117, 123, 23);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.NavigationStatus-Fail {
+    display: flex;
+	background-color: rgb(235, 7, 3);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(115, 13, 13);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}

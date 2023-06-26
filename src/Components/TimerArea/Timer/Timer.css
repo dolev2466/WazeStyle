@@ -1,0 +1,32 @@
+
+
+.Relative-container {
+    position: absolute;
+    display: flex;
+    width: 140px;
+    height: 140px;
+    background-color: #3e3d3d;
+    top: calc( 100% - 250px );
+    left: calc( 100% - 150px );
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .Inside-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background-color: #383636;
+    border-radius: 100%;
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+  }
+  .Inside-circle > button{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+  }

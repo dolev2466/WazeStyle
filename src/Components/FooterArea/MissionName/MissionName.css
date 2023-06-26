@@ -1,0 +1,7 @@
+.MissionName {
+	
+}
+.MissionName > span{
+    font-weight: bold;
+    font-size: larger;
+}

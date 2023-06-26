@@ -1,0 +1,41 @@
+.CenterButton {
+    position: absolute;
+    display: flex;
+    width: 65px;
+    height: 65px;
+    background-color: #898787;
+    opacity: 0.7 ;
+    top: calc( 100% - 180px );
+    left: 40px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.CenterButton:hover{
+    background-color: #504e4e;
+}
+.CenterButton > img{
+
+    width: 45px;
+    height: 45px;
+}
+.CenterButtonActive > img{
+
+    width: 45px;
+    height: 45px;
+}
+.CenterButtonActive {
+    position: absolute;
+    display: flex;
+    width: 65px;
+    height: 65px;
+    background-color: #38aaf6;
+    opacity: 0.7 ;
+    top: calc( 100% - 180px );
+    left: 40px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
